@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> CV WEBPAGE </title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+</script>
+<script>
+
+$(document).ready(function(){
+$("#portfolio").hover(function(){
+    $("#artworks").show();
+}, function(){
+    $("#artworks").hide();
+  });
+});
+
+</script>
+<style>
+    body {
+        background-image: url('apartments-animated-dribbler-bottom.gif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow-x: hidden;
+        overflow-y: hidden;
+      }
+
+    table, th, td {
+        border-style: outset;
+        background-color: pink;
+    }
+
+    #art1{
+        transform: translate(670px, -930px);
+    }
+    #art2{
+        transform: translate(670px, -930px);
+    }
+    #art3{
+        transform: translate(670px, -930px);
+    }
+    #art4{
+        transform: translate(-670px, -1690px);
+    }
+    #art5{
+        transform: translate(-670px, -1690px);
+    }
+
+    #artworks{
+        display: none;
+        color: white;
+    }
+    
+</style>
+</head>
+<body><center>
+<table>
+<tr>
+    <th><h1>JUSTINE ROLAND P. LAPIRA</h1>
+        <h4>COMPUTER PROGRAMMING</h4>
+    </th>
+</tr>
+
+<tr>
+    <th><h2>PERSONAL PROFILE</h2>
+        I am a committed researcher with excellent communication skills.
+    I have expertise and experience in a variety of areas.
+    </th>
+
+<tr>
+    <th><h2>AWARDS & ACHIEVEMENTS</h2>
+        Being in Honors for the whole School Year
+        in JCSGO CHRISTIAN ACADEMY (2018-2021)
+    </th>
+</tr>
+<tr>
+    <th><h2>OBJECTIVE</h2>
+        Adaptable highschool student with proven critical
+        thinking, multitasking, and technical skill. <br>Aiming to
+        leverage my abilities to succesfully fill the Computer
+        Programmer role at your company. <br>Frequently
+        praised as hard-working by my peers, I can be relied
+        upon to help your company achieve its goals.
+    </th>
+</tr>
+<tr>
+    <th><h2>PREVIOUS EDUCATION</h2>
+        <h3>JCSGO CHRISTIAN ACADEMY</h3><pre>-Graduated Honor Roll (2018-2021)
+-Treasurer, Student Council (2018)
+-Technical, Student Council (2020)</pre>
+    </th>
+</tr>
+<tr>
+    <th><h2>SKILLS AND ABILITIES</h2>
+        <pre>-Microsoft Office Programs
+- Editing 
+- Game Knowledge
+- Research and data collection
+- Data assessment
+- Great communication skills
+-Coding</pre>
+    </th>
+</tr>
+<tr>
+    <th id="portfolio">
+        <h1>PORTFOLIO (HOVER ME)</h1>
+    </th>
+</tr>
+</table>
+<div id="artworks">
+        <div id="art1">
+        <img src="PUERTO-PRINCESAS-SUBTERRANEAN-RIVER.png" width="500" height="250">
+        </div>
+        <div id="art2">
+            <img src="itto.png" width="500" height="250">
+        </div>
+        <div id="art3">
+            <img src="LIVE.png" width="500" height="250">
+        </div>
+        <div id="art4">
+            <img src="TABLE.png" width="500" height="250">
+        </div>
+        <div id="art5">
+            <img src="CPAR.png" width="500" height="600">
+        </div>
+</div>
+</body></center>
+</html>
